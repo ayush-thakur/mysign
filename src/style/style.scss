@@ -1,0 +1,45 @@
+
+@import "node_modules/slick-carousel/slick/slick-theme.scss";
+@import "node_modules/slick-carousel/slick/slick.scss";
+@mixin dispaly($flex) {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display: -ms-flex;
+    display: flex;        
+    }
+    @mixin flex-direction($flex-direction) {
+    -webkit-flex-direction: $flex-direction;
+    -moz-flex-direction: $flex-direction;
+    -ms-flex-direction: $flex-direction;
+    flex-direction: $flex-direction;
+    }
+    @mixin justify-content($justify-content) {
+    -webkit-justify-content: $justify-content;
+    -moz-justify-content: $justify-content;
+    -ms-justify-content: $justify-content;
+    justify-content: $justify-content;
+    }
+    @mixin align-items($align-items) {
+    -webkit-align-items: $align-items;
+    -moz-align-items: $align-items;
+    -ms-align-items: $align-items;
+    align-items: $align-items;
+    }
+    @mixin align-content($align-content) {
+    -webkit-align-content: $align-content;
+    -moz-align-content: $align-content;
+    -ms-align-content: $align-content;
+    align-content: $align-content;
+    }
+    @mixin flex-basis($flex-basis) {
+    -webkit-flex-basis: $flex-basis;
+    -moz-flex-basis: $flex-basis;
+    -ms-flex-basis: $flex-basis;
+    flex-basis: $flex-basis;
+    }
+    @mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+    }

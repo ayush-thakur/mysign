@@ -1,0 +1,25 @@
+{
+  "name": "mysign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/style/style.scss src/style/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush-thakur/mysign.git"
+  },
+  "author": "ayush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayush-thakur/mysign/issues"
+  },
+  "homepage": "https://github.com/ayush-thakur/mysign#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
